@@ -1,0 +1,63 @@
+@import url(footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Sans+JP:wght@100..900&display=swap');
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 15px;
+  font-style: normal;
+}
+
+.imagenes {
+  width: 100px;
+  height: 100px;
+  border: solid 2px tomato;
+  border-radius: 50%;
+}
+
+section div{
+    border-radius: 15px 0px 15px 0px;
+    border: solid 5px black;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+#contenedor div a{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 5px;
+    border-radius: 6px;
+}
+#contenedor div a:hover{
+    background-color: black;
+    color: white;
+}
+#contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+body{
+    background-image: url(../img/fondo2.jpg);
+}
+
+ul li {
+    list-style: none;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    color: tomato;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: tomato;
+    transition: background-color 0.3s ease ;
+}
